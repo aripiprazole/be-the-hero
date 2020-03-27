@@ -41,7 +41,7 @@ class IncidentController {
         .select("ong_id")
         .first();
 
-      if (incident.ong_id !== authorization) {
+      if (incident?.ong_id !== authorization) {
         return res.status(401).send({ error: "Operation not permitted" });
       }
 
