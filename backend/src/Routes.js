@@ -10,7 +10,7 @@ const router = new Router();
 router.post("/ongs", ONGController.store);
 router.get("/ongs", ONGController.index);
 
-router.get("/login", SessionController.store);
+router.post("/login", SessionController.store);
 
 router.post("/incidents", IncidentController.store);
 router.get("/incidents", IncidentController.index);
