@@ -6,6 +6,10 @@ export const Container = styled.View`
   padding: ${Constants.statusBarHeight + 20}px 24px 0;
 `;
 
+export const IncidentList = styled.FlatList`
+  margin-top: 32px;
+`;
+
 export const Strong = styled.Text`
   font-weight: bold;
 `;
