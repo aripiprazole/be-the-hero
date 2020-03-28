@@ -34,7 +34,7 @@
     "watch": [
       "src"
     ],
-    "exec": "yarn start",
+    "exec": "yarn start:dev",
     "ext": "js"
   },
   "devDependencies": {
